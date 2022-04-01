@@ -9,8 +9,9 @@ import org.springframework.stereotype.Component;
 
 //we can specify the value/ name of the object to be created within curly braces in the component annotation, then the camel case object wont be created.
 @Scope("prototype")
-@Component("ins")
-public class Instructor {
+@Component("inst")
+public class Instructor {// Instructor instructor=new Instructor();
+	
 
 	@Value("10")
 	int id;

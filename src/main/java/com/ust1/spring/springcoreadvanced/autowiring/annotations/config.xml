@@ -23,7 +23,7 @@
 	<bean
 		class="com.ust1.spring.springcoreadvanced.autowiring.annotations.Employee"
 		name="employee" />
-	<!-- change the autowire="byType" to perform autowiring using byType -->
+	
 
 
 </beans>

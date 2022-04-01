@@ -8,7 +8,7 @@ public class Profile {
 
 	@Value("Java Instructor")
 	private String title;
-	@Value("Byjus")
+	@Value("UST")
 	private String company;
 
 	public String getTitle() {

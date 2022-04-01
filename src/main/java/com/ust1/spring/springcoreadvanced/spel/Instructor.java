@@ -12,9 +12,9 @@ import org.springframework.stereotype.Component;
 public class Instructor {
 
 
-	@Value("#{T(java.lang.Integer).MAX_VALUE}")
+	@Value("#{T(java.lang.Math).pow(2,5)}")
 	int id=45;
-	@Value("#{'Aryan Naik'.toLowerCase()}")
+	@Value("#{'Aryan Naik'.toUpperCase()}")
 	String name;
 	@Value("#{topics}")
 	private List<String> topics;

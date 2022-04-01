@@ -8,8 +8,9 @@ public class Test {
 	public static void main(String[] args) {
 		ApplicationContext ac = new ClassPathXmlApplicationContext(
 				"com/ust1/spring/springcoreadvanced/stereotype/annotations/valuewithobjects/config.xml");
-		Instructor instructor = (Instructor) ac.getBean("ins");
+		Instructor instructor = (Instructor) ac.getBean("inst");
 		System.out.println(instructor);
+		
 	}
 
 }
